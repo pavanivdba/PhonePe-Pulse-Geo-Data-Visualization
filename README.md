@@ -40,7 +40,7 @@ And use mysql queries to extract information about the various features and aspe
 Conversion of the DataFrames to csv format, 
 As per our needs also merge DataFrames to be able to pull the data visualization and Table Data Display 
 
-Step 4:
+Step 3:
 Database insertion:
 To insert the datadrame into SQL first I've created a new database and tables using "mysql-connector-python" library in Python to 
 connect to a MySQL database and insert the transformed data using SQL commands
@@ -48,7 +48,7 @@ Creating the connection between python and MySQL
 Using a connection string , and defining a cursor for the Engine Created for the Mysql Database ,
 Cursor to execute Mysql Queries in the Python Environment.
 
-
+Step 4:
 Finally Put all togethers using the Streamlit App:
 
 The Dashboard with all the graphs 
