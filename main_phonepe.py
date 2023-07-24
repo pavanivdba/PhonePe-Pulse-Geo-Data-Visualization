@@ -382,7 +382,7 @@ with col2:
     st.plotly_chart(figure2, use_container_width=True)
 
 ############################# BRAND ANALYSIS ######################################
-# st.write(":green[BRAND ANALYSIS]")
+
 st.subheader(':red[OVERALL BRAND ANALYSIS]')
 for column in aggregated_users_DF:
     if aggregated_users_DF[column].dtype == 'float64':
@@ -594,16 +594,16 @@ with colT2:
     * Color Depth Of The State: Total Transactions.
     * Size of the Circles : Total Transactions District wise.
     * Larger Circles:  Top Transactions(higher transactions)
-    * Hovering over the MAP : Total transactions, Total amount, names of the Districts as 
+    * Hovering over the MAP : Total transactions, Total amount, names of the Districts as
       per the Latitude and Longitude taken.
     """
     )
     st.info(
-        """
+            """
     Take Away:
     * User can observe Transactions of PhonePe in both statewide and District Wide.
     * Highest Transactions By Year and Quarter
-    * District Wise Transactions 
+    * District Wise Transactions
         """
     )
-)
+
